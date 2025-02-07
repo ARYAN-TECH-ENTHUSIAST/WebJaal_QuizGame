@@ -1,0 +1,103 @@
+*{
+    color: chartreuse;
+    text-align: center;
+    margin: 0;
+}
+#QuizImg{
+    background-image: url('QuizBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+button {
+    padding: 15px 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #6b716b; /* Green background */
+    color: white;
+    border: none;
+    cursor: grabbing;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+button:hover {
+    background-color: #45a049;
+}
+#domain-selection{
+    text-align: center;
+    padding: 130px;
+}
+#category{
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color:red;
+}
+#heading{
+    font-size: 120px;
+}
+#options{
+      padding: 10vh; /*this options id is optional */
+}
+/* Style for the quiz answer buttons */
+.option-button {
+    display: block;  /* Stack options vertically */
+    width: 50%;  /* Adjust width */
+    padding: 10px;
+    margin: 10px auto;  /* Centering the buttons */
+    font-size: 18px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.option-button:hover {
+    background-color: #4CAF50;  /* Green background on hover */
+    color: white;
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Selected or correct answer effect */
+.option-button.correct {
+    background-color: #28a745 !important; /* Green for correct */
+    color: white !important;
+}
+
+/* Wrong answer effect */
+.option-button.wrong {
+    background-color: #dc3545 !important; /* Red for wrong */
+    color: white !important;
+}
+.hint-button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .hint-button:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  #hint {
+    font-size: 16px;
+    color: yellow;
+    font-style: italic;
+    text-align: center;
+  }
+  

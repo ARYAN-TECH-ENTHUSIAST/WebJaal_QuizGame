@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="style.css"> <!-- Linking the external CSS -->
+</head>
+<body>
+    <div class="background">
+        <img src="photo.webp" alt="Background Image">
+        <div class="content">
+        
+        <h1>LET THE GAME BEGIN</h1>
+         <!-- Button that redirects to another HTML page -->
+         <button onclick="redirectToPage()">Speed Test</button>
+         <button onclick="redirectToQuizPage()">Start Quiz</button>
+        </div>
+    </div>
+  <script>
+    // JavaScript function to redirect to another HTML file
+    function redirectToPage() {
+      window.location.href = "about.html";  // Redirect to about.html
+    }
+  
+      // JavaScript function to redirect to another HTML file
+      function redirectToQuizPage() {
+        window.location.href = "indexQUIZ.html";  // Redirect to about.html
+      }
+    </script>
+
+</body>
+</html>
